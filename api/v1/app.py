@@ -11,7 +11,7 @@ from api.v1.views import app_views
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "0.0.0.0"}})
+CORS(app, resources={r"/api/v1/*": {"origins": "*"}})
 api_host = getenv("HBNB_API_HOST")
 api_port = getenv("HBNB_API_PORT")
 
