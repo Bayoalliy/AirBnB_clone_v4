@@ -102,4 +102,27 @@
 
 input {
     margin-right: 10px;
+    }
+
+.places .reviews {
+    margin-top: 40px;
+    }
+.places .reviews ul {
+    list-style-type: none;
 }
+
+.places .reviews h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.places .reviews p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.places .reviews span {
+    color: #ff2dd1;
+    text-decoration: underline;
+    cursor: pointer;
+ }
